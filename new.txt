@@ -1,0 +1,433 @@
+nayan@ubantu22:~$ sudo apt install openjdk-8-jdk-headless
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates-java java-common openjdk-8-jre-headless
+Suggested packages:
+  default-jre openjdk-8-demo openjdk-8-source fonts-dejavu-extra fonts-nanum
+  fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei
+  fonts-wqy-zenhei
+The following NEW packages will be installed:
+  ca-certificates-java java-common openjdk-8-jdk-headless
+  openjdk-8-jre-headless
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 39.7 MB of archives.
+After this operation, 144 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 java-common all 0.72build2 [6,782 B]
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 openjdk-8-jre-headless amd64 8u432-ga~us1-0ubuntu2~22.04 [30.8 MB]
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 ca-certificates-java all 20190909ubuntu1.2 [12.1 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 openjdk-8-jdk-headless amd64 8u432-ga~us1-0ubuntu2~22.04 [8,858 kB]
+Fetched 39.7 MB in 15s (2,684 kB/s)                                            
+Selecting previously unselected package java-common.
+(Reading database ... 201894 files and directories currently installed.)
+Preparing to unpack .../java-common_0.72build2_all.deb ...
+Unpacking java-common (0.72build2) ...
+Selecting previously unselected package openjdk-8-jre-headless:amd64.
+Preparing to unpack .../openjdk-8-jre-headless_8u432-ga~us1-0ubuntu2~22.04_amd64
+.deb ...
+Unpacking openjdk-8-jre-headless:amd64 (8u432-ga~us1-0ubuntu2~22.04) ...
+Selecting previously unselected package ca-certificates-java.
+Preparing to unpack .../ca-certificates-java_20190909ubuntu1.2_all.deb ...
+Unpacking ca-certificates-java (20190909ubuntu1.2) ...
+Selecting previously unselected package openjdk-8-jdk-headless:amd64.
+Preparing to unpack .../openjdk-8-jdk-headless_8u432-ga~us1-0ubuntu2~22.04_amd64
+.deb ...
+Unpacking openjdk-8-jdk-headless:amd64 (8u432-ga~us1-0ubuntu2~22.04) ...
+Setting up java-common (0.72build2) ...
+Setting up ca-certificates-java (20190909ubuntu1.2) ...
+head: cannot open '/etc/ssl/certs/java/cacerts' for reading: No such file or dir
+ectory
+Adding debian:ACCVRAIZ1.pem
+Adding debian:GlobalSign_Root_E46.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:Amazon_Root_CA_2.pem
+Adding debian:vTrus_ECC_Root_CA.pem
+Adding debian:CA_Disig_Root_R2.pem
+Adding debian:BJCA_Global_Root_CA2.pem
+Adding debian:DigiCert_Assured_ID_Root_G3.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_ECC.pem
+Adding debian:GTS_Root_R3.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:Amazon_Root_CA_4.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:TeliaSonera_Root_CA_v1.pem
+Adding debian:NAVER_Global_Root_Certification_Authority.pem
+Adding debian:Microsoft_ECC_Root_Certificate_Authority_2017.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:Amazon_Root_CA_3.pem
+Adding debian:ISRG_Root_X2.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:CommScope_Public_Trust_RSA_Root-02.pem
+Adding debian:Entrust_Root_Certification_Authority_-_EC1.pem
+Adding debian:Certum_Trusted_Network_CA_2.pem
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:HARICA_TLS_ECC_Root_CA_2021.pem
+Adding debian:SSL.com_TLS_ECC_Root_CA_2022.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G4.pem
+Adding debian:DigiCert_TLS_RSA4096_Root_G5.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:BJCA_Global_Root_CA1.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:ssl-cert-snakeoil.pem
+Adding debian:TrustAsia_Global_Root_CA_G4.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:Telia_Root_CA_v2.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:Trustwave_Global_ECC_P384_Certification_Authority.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:HiPKI_Root_CA_-_G1.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+Adding debian:emSign_ECC_Root_CA_-_C3.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+Adding debian:TrustAsia_Global_Root_CA_G3.pem
+Adding debian:CommScope_Public_Trust_ECC_Root-02.pem
+Adding debian:emSign_Root_CA_-_G1.pem
+Adding debian:GlobalSign_Root_CA_-_R6.pem
+Adding debian:Atos_TrustedRoot_Root_CA_ECC_TLS_2021.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:vTrus_Root_CA.pem
+Adding debian:D-TRUST_EV_Root_CA_1_2020.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:CommScope_Public_Trust_ECC_Root-01.pem
+Adding debian:Sectigo_Public_Server_Authentication_Root_E46.pem
+Adding debian:DigiCert_Global_Root_G2.pem
+Adding debian:SSL.com_TLS_RSA_Root_CA_2022.pem
+Adding debian:Security_Communication_RootCA3.pem
+Adding debian:COMODO_RSA_Certification_Authority.pem
+Adding debian:USERTrust_ECC_Certification_Authority.pem
+Adding debian:Certum_Trusted_Root_CA.pem
+Adding debian:Certum_EC-384_CA.pem
+Adding debian:Hongkong_Post_Root_CA_3.pem
+Adding debian:certSIGN_Root_CA_G2.pem
+Adding debian:AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+Adding debian:Certigna_Root_CA.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:CFCA_EV_ROOT.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+Adding debian:UCA_Extended_Validation_Root.pem
+Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:GTS_Root_R4.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:GLOBALTRUST_2020.pem
+Adding debian:SSL.com_Root_Certification_Authority_RSA.pem
+Adding debian:QuoVadis_Root_CA_2_G3.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G2.pem
+Adding debian:Amazon_Root_CA_1.pem
+Adding debian:SZAFIR_ROOT_CA2.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+Adding debian:Certigna.pem
+Adding debian:QuoVadis_Root_CA_1_G3.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:CommScope_Public_Trust_RSA_Root-01.pem
+Adding debian:Certainly_Root_E1.pem
+Adding debian:Security_Communication_ECC_RootCA1.pem
+Adding debian:DigiCert_TLS_ECC_P384_Root_G5.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:AC_RAIZ_FNMT-RCM.pem
+Adding debian:SSL.com_Root_Certification_Authority_ECC.pem
+Adding debian:Trustwave_Global_Certification_Authority.pem
+Adding debian:Sectigo_Public_Server_Authentication_Root_R46.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:OISTE_WISeKey_Global_Root_GC_CA.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:TWCA_Global_Root_CA.pem
+Adding debian:e-Szigno_Root_CA_2017.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:GTS_Root_R1.pem
+Adding debian:UCA_Global_G2_Root.pem
+Adding debian:emSign_Root_CA_-_C1.pem
+Adding debian:QuoVadis_Root_CA_3_G3.pem
+Adding debian:Atos_TrustedRoot_Root_CA_RSA_TLS_2021.pem
+Adding debian:DigiCert_Trusted_Root_G4.pem
+Adding debian:TunTrust_Root_CA.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:Microsoft_RSA_Root_Certificate_Authority_2017.pem
+Adding debian:Izenpe.com.pem
+Adding debian:DigiCert_Assured_ID_Root_G2.pem
+Adding debian:ANF_Secure_Server_Root_CA.pem
+Adding debian:Comodo_AAA_Services_root.pem
+Adding debian:DigiCert_Global_Root_G3.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:GTS_Root_R2.pem
+Adding debian:HARICA_TLS_RSA_Root_CA_2021.pem
+Adding debian:Certainly_Root_R1.pem
+Adding debian:Atos_TrustedRoot_2011.pem
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:USERTrust_RSA_Certification_Authority.pem
+Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:GDCA_TrustAUTH_R5_ROOT.pem
+Adding debian:GlobalSign_Root_R46.pem
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:D-TRUST_BR_Root_CA_1_2020.pem
+Adding debian:emSign_ECC_Root_CA_-_G3.pem
+Adding debian:Trustwave_Global_ECC_P256_Certification_Authority.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:ISRG_Root_X1.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+done.
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for ca-certificates (20240203~22.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+
+done.
+done.
+Setting up openjdk-8-jre-headless:amd64 (8u432-ga~us1-0ubuntu2~22.04) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to pro
+vide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/jjs to prov
+ide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/keytool to 
+provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/pack200 to 
+provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/rmid to pro
+vide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/rmiregistry
+ to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/unpack200 t
+o provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/orbd to pro
+vide /usr/bin/orbd (orbd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/servertool 
+to provide /usr/bin/servertool (servertool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/tnameserv t
+o provide /usr/bin/tnameserv (tnameserv) in auto mode
+Setting up openjdk-8-jdk-headless:amd64 (8u432-ga~us1-0ubuntu2~22.04) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/clhsdb to provi
+de /usr/bin/clhsdb (clhsdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/extcheck to pro
+vide /usr/bin/extcheck (extcheck) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/hsdb to provide
+ /usr/bin/hsdb (hsdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/idlj to provide
+ /usr/bin/idlj (idlj) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jar to provide 
+/usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jarsigner to pr
+ovide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provid
+e /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc to prov
+ide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javah to provid
+e /usr/bin/javah (javah) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javap to provid
+e /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jcmd to provide
+ /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jdb to provide 
+/usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jdeps to provid
+e /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jfr to provide 
+/usr/bin/jfr (jfr) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jhat to provide
+ /usr/bin/jhat (jhat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jinfo to provid
+e /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jmap to provide
+ /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jps to provide 
+/usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jrunscript to p
+rovide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jsadebugd to pr
+ovide /usr/bin/jsadebugd (jsadebugd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstack to provi
+de /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstat to provid
+e /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstatd to provi
+de /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/native2ascii to
+ provide /usr/bin/native2ascii (native2ascii) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/rmic to provide
+ /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/schemagen to pr
+ovide /usr/bin/schemagen (schemagen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/serialver to pr
+ovide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/wsgen to provid
+e /usr/bin/wsgen (wsgen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/wsimport to pro
+vide /usr/bin/wsimport (wsimport) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/xjc to provide 
+/usr/bin/xjc (xjc) in auto mode
+nayan@ubantu22:~$ java -version
+openjdk version "1.8.0_432"
+OpenJDK Runtime Environment (build 1.8.0_432-8u432-ga~us1-0ubuntu2~22.04-ga)
+OpenJDK 64-Bit Server VM (build 25.432-bga, mixed mode)
+nayan@ubantu22:~$ sudo adduser hadoop
+Adding user `hadoop' ...
+Adding new group `hadoop' (1000) ...
+Adding new user `hadoop' (1000) with group `hadoop' ...
+Creating home directory `/home/hadoop' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for hadoop
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+nayan@ubantu22:~$ sudo usermod -aG sudo hadoop
+nayan@ubantu22:~$ sudo apt install openssh-server openssh-client -y
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+openssh-client is already the newest version (1:8.9p1-3ubuntu0.10).
+openssh-client set to manually installed.
+The following additional packages will be installed:
+  ncurses-term openssh-sftp-server ssh-import-id
+Suggested packages:
+  molly-guard monkeysphere ssh-askpass
+The following NEW packages will be installed:
+  ncurses-term openssh-server openssh-sftp-server ssh-import-id
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 751 kB of archives.
+After this operation, 6,046 kB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssh-sftp-server amd64 1:8.9p1-3ubuntu0.10 [38.9 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssh-server amd64 1:8.9p1-3ubuntu0.10 [435 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 ncurses-term all 6.3-2ubuntu0.1 [267 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 ssh-import-id all 5.11-0ubuntu1 [10.1 kB]
+Fetched 751 kB in 2s (323 kB/s)          
+Preconfiguring packages ...
+Selecting previously unselected package openssh-sftp-server.
+(Reading database ... 202260 files and directories currently installed.)
+Preparing to unpack .../openssh-sftp-server_1%3a8.9p1-3ubuntu0.10_amd64.deb ...
+Unpacking openssh-sftp-server (1:8.9p1-3ubuntu0.10) ...
+Selecting previously unselected package openssh-server.
+Preparing to unpack .../openssh-server_1%3a8.9p1-3ubuntu0.10_amd64.deb ...
+Unpacking openssh-server (1:8.9p1-3ubuntu0.10) ...
+Selecting previously unselected package ncurses-term.
+Preparing to unpack .../ncurses-term_6.3-2ubuntu0.1_all.deb ...
+Unpacking ncurses-term (6.3-2ubuntu0.1) ...
+Selecting previously unselected package ssh-import-id.
+Preparing to unpack .../ssh-import-id_5.11-0ubuntu1_all.deb ...
+Unpacking ssh-import-id (5.11-0ubuntu1) ...
+Setting up openssh-sftp-server (1:8.9p1-3ubuntu0.10) ...
+Setting up openssh-server (1:8.9p1-3ubuntu0.10) ...
+
+Creating config file /etc/ssh/sshd_config with new version
+Creating SSH2 RSA key; this may take some time ...
+3072 SHA256:KDc9Z3QFinxn67KbzXCbS7cGMglyPgR/gWexroOc9xg root@ubantu22 (RSA)
+Creating SSH2 ECDSA key; this may take some time ...
+256 SHA256:Jqq+7oSVsNf4qM7UBkRWHhfNez0FoV/dMgsvRpibFU0 root@ubantu22 (ECDSA)
+Creating SSH2 ED25519 key; this may take some time ...
+256 SHA256:HHDq2/TLT8JWVyTYkapz2rSvnzSnUoJEB5/UyhucTg4 root@ubantu22 (ED25519)
+Created symlink /etc/systemd/system/sshd.service → /lib/systemd/system/ssh.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /lib/systemd/system/ssh.ser
+vice.
+rescue-ssh.target is a disabled or a static unit, not starting it.
+ssh.socket is a disabled or a static unit, not starting it.
+Setting up ssh-import-id (5.11-0ubuntu1) ...
+Setting up ncurses-term (6.3-2ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for ufw (0.36.1-4ubuntu0.1) ...
+nayan@ubantu22:~$ sudo su - hadoop
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+hadoop@ubantu22:~$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/hadoop/.ssh/id_rsa): 
+Created directory '/home/hadoop/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/hadoop/.ssh/id_rsa
+Your public key has been saved in /home/hadoop/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:nOz/OWzkClKUPixVRKmcuiru0itCOYKC2Wyrrs6DuKc hadoop@ubantu22
+The key's randomart image is:
++---[RSA 3072]----+
+|         o+.     |
+|         o.      |
+|       .+o       |
+|       B+.       |
+|o+.   ..S        |
+|*++   .+ .  .    |
+|*o..  ..o  +     |
+|B.=   .. o  =.   |
+|E&=o..    o+o.   |
++----[SHA256]-----+
+hadoop@ubantu22:~$ sudo cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+[sudo] password for hadoop: 
+Sorry, try again.
+[sudo] password for hadoop: 
+hadoop@ubantu22:~$ sudo chmod 640 ~/.ssh/authorized_keys
+hadoop@ubantu22:~$ ssh localhost
+The authenticity of host 'localhost (127.0.0.1)' can't be established.
+ED25519 key fingerprint is SHA256:HHDq2/TLT8JWVyTYkapz2rSvnzSnUoJEB5/UyhucTg4.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-49-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+hadoop@ubantu22:~$ wget https://archive.apache.org/dist/hadoop/core/hadoop-3.1.1/hadoop-3.1.1.tar.gz
+--2024-12-16 14:18:31--  https://archive.apache.org/dist/hadoop/core/hadoop-3.1.1/hadoop-3.1.1.tar.gz
+Resolving archive.apache.org (archive.apache.org)... 65.108.204.189, 2a01:4f9:1a:a084::2
+Connecting to archive.apache.org (archive.apache.org)|65.108.204.189|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 334559382 (319M) [application/x-gzip]
+Saving to: ‘hadoop-3.1.1.tar.gz’
+
+hadoop-3.1.1.tar.gz        17%[=====>                             ]  55.85M  --.-KB/s    eta 8m 56s ^C
+hadoop@ubantu22:~$ wget https://archive.apache.org/dist/hadoop/core/hadoop-3.1.1/hadoop-3.1.1.tar.gz
+--2024-12-16 14:20:28--  https://archive.apache.org/dist/hadoop/core/hadoop-3.1.1/hadoop-3.1.1.tar.gz
+Resolving archive.apache.org (archive.apache.org)... 65.108.204.189, 2a01:4f9:1a:a084::2
+Connecting to archive.apache.org (archive.apache.org)|65.108.204.189|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 334559382 (319M) [application/x-gzip]
+Saving to: ‘hadoop-3.1.1.tar.gz.1’
+
+hadoop-3.1.1.tar.gz.1       35%[============>                         ] 114.63M  --.-KB/s    eta 92m hadoop-3.1.1.tar.gz.1      42%[=============>                     ] 134.06M  --.-KB/s    eta 78m 17s^C
+hadoop@ubantu22:~$ ^C
+hadoop@ubantu22:~$ 
+
